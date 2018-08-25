@@ -19,7 +19,7 @@ function calculaHiperfocal () {
     parseFloat((hiperfocal/1000)/2).toFixed(1) + " m";
 
     distHiperfocalImg.innerHTML =
-    "</strong>Distancia Hiperfocal: </strong>" + distHiperfocal.innerHTML;
+    "Distancia Hiperfocal: " + distHiperfocal.innerHTML;
 
     hiperfocalCercano.innerHTML =
     "Hiperfocal Cercano: " + limiteHiperfocalCercano.innerHTML;
